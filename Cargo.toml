@@ -1,0 +1,15 @@
+[package]
+name = "shash"
+version = "0.0.1"
+authors = ["Rodney Johnson <ask@rodneylab.com>"]
+description = "Generate SHA256 file for set of files for use with `shasum -c`"
+license = "BSD-3-Clause"
+repository = "https://github.com/rodneylab/shash"
+homepage = "https://rodneylab.com"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "4.0", features = ["derive"]}
+sha2 = "0.10"
